@@ -1,5 +1,9 @@
 public class test3 {
     public static void main(String[] args) {
+
+    }
+
+    public static void main2(String[] args) {
          int n = -1;
          int count = 0;
          while (n != 0){
