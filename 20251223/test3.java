@@ -1,6 +1,6 @@
 public class test3 {
     public static void main(String[] args) {
-
+            int n = 15;
     }
 
     public static void main2(String[] args) {
