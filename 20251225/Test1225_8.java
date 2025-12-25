@@ -14,6 +14,8 @@ public class Test1225_8 {
             System.out.println(ret2);
     }
 
+
+
     public static int add(int a,int b){
         return a+b;
     }
