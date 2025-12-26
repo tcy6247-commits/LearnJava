@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
 public class Test {
-    public static void main(String[] args) {
+
+    public static void main13(String[] args) {
         /// 求最大公因数
-        int a =24;
-        int b =18;
+        int a =20;
+        int b =36;
         int c = a%b;
         while (c!=0){
             a=b;
@@ -86,8 +87,8 @@ public class Test {
     public static void main7(String[] args) {
         /// 输入一个整数，表示输出的行数，也表示组成“x”的反斜线和正斜线的长度。针对每行输出，输出用“*”组成的图案
         Scanner scan = new Scanner(System.in);
-        while (scan.hasNext()) { /// 可以多次输入n,循环输入
-            int n = scan.nextInt();
+        while (scan.hasNext()) { /// 判断是否还有下一个整数
+            int n = scan.nextInt(); //读入一个整数
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
                     if (i == j || i + j == n - 1) {
